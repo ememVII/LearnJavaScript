@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Assign 01 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that allow to user enter number then printit</p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="num1" class="form-control">
+      <br>
+      <button onclick="result1()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="resultOne"></h1>
+    </div>
+
+    <!-- Assign 02 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that take number from user then print yes if that number can divide by 3
+        and 4 otherwise print no</p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="num2" class="form-control">
+      <br>
+      <button onclick="result2()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="resultTwo"></h1>
+    </div>
+
+    <!-- Assign 03 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that allows the user to insert 2 integers then print the max</p>
+      <label class="fw-bold text-primary">Number1</label>
+      <input id="num3" class="form-control">
+      <br>
+
+      <label class="fw-bold text-primary">Number2</label>
+      <input id="num4" class="form-control">
+      <br>
+
+      <button onclick="result3()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="result3"></h1>
+    </div>
+
+    <!-- Assign 04 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold"> Write a program that allows the user to insert an integer then print negative if it is
+        negative number otherwise print positive.
+      </p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="num5" class="form-control">
+      <br>
+
+      <button onclick="result4()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="result4"></h1>
+    </div>
+
+    <!-- Assign 05 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that take 3 integers from user then print the max element
+        and the min element</p>
+      <label class="fw-bold text-primary">Number1</label>
+      <input id="assign5Num1" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Number2</label>
+      <input id="assign5Num2" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Number3</label>
+      <input id="assign5Num3" class="form-control">
+      <br>
+
+      <button onclick="result5()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign05result1"></h1>
+      <h1 id="assign05result2"></h1>
+    </div>
+
+    <!-- Assign 06 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that allows the user to insert integer number then
+        check If a number is oven or odd</p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="assign6Num1" class="form-control">
+      <br>
+
+      <button onclick="result6()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign06result1"></h1>
+    </div>
+
+    <!-- Assign 07 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that take character from user then if it is vowel chars (a,e,I,o,u)
+        then print vowel otherwise print consonant</p>
+      <label class="fw-bold text-primary">Character</label>
+      <input id="assign7ch1" class="form-control">
+      <br>
+
+      <button onclick="result7()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign07result1"></h1>
+    </div>
+
+    <!-- Assign 08 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that allows user to insert integer then print all numbers between 1 to
+        that’s number</p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="assign8Num" class="form-control">
+      <br>
+
+      <button onclick="result8()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign08result"></h1>
+    </div>
+
+    <!-- Assign 09 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that allows userto insert integerthen print a multiplication table up to 12.</p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="assign9Num" class="form-control">
+      <br>
+
+      <button onclick="result9()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign09result"></h1>
+    </div>
+
+    <!-- Assign 10 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Writeaprogramthatallowstousertoinsertnumberthenprintallevennumbers
+        between 1 to this number</p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="assign10Num" class="form-control">
+      <br>
+
+      <button onclick="result10()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign10result"></h1>
+    </div>
+
+    <!-- Assign 11 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that take two integers then print the power</p>
+      <label class="fw-bold text-primary">Number1</label>
+      <input id="assign11Num1" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Number2</label>
+      <input id="assign11Num2" class="form-control">
+      <br>
+
+      <button onclick="result11()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign11result"></h1>
+    </div>
+
+    <!-- Assign 12 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program that take two integers then print the power</p>
+      <label class="fw-bold text-primary">Subject 1</label>
+      <input id="sub01" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Subject 2</label>
+      <input id="sub02" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Subject 3</label>
+      <input id="sub03" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Subject 4</label>
+      <input id="sub04" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Subject 5</label>
+      <input id="sub05" class="form-control">
+      <br>
+
+      <button onclick="result12('total')" class="btn btn-primary">Total</button>
+      <button onclick="result12('avg')" class="btn btn-primary">Average</button>
+      <button onclick="result12('per')" class="btn btn-primary">Percentage</button>
+      <h1 id="assign12result"></h1>
+    </div>
+
+    <!-- Assign 13 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program to input month number and print number of days in that
+        month.</p>
+      <label class="fw-bold text-primary">Month Number</label>
+      <input id="assign13Num1" class="form-control">
+      <br>
+
+      <button onclick="result12()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign13result"></h1>
+    </div>
+
+    <!-- Assign 14 -->
+    <div class="w-50 my-5 mx-auto">
+    <p class="text-danger fw-bold">Write a program that take two integers then print the power</p>
+    <label class="fw-bold text-primary">Physics</label>
+    <input id="assign14sub01" class="form-control">
+    <br>
+    <label class="fw-bold text-primary">Chemistry</label>
+    <input id="assign14sub02" class="form-control">
+    <br>
+    <label class="fw-bold text-primary">Biology</label>
+    <input id="assign14sub03" class="form-control">
+    <br>
+    <label class="fw-bold text-primary">Mathematics</label>
+    <input id="assign14sub04" class="form-control">
+    <br>
+    <label class="fw-bold text-primary">Computer</label>
+    <input id="assign14sub05" class="form-control">
+    <br>
+
+    <button onclick="result14('grade')" class="btn btn-primary">Grade</button>
+    <h1 id="assign14result"></h1>
+  </div>
+
+  <p class="text-center fw-bold text-success fs-1">Using switch case</p>
+
+  <!-- Assign 15 -->
+  <div class="w-50 my-5 mx-auto">
+    <p class="text-danger fw-bold">Write a program to print total number of days in month</p>
+    <label class="fw-bold text-primary">Month: </label>
+    <input id="assign15month" class="form-control">
+    <br>
+
+    <button onclick="result15()" class="btn btn-primary">result</button>
+    <br>
+    <h1 id="assign15result"></h1>
+  </div>
+
+<!-- Assign 16 -->
+      <div class="w-50 my-5 mx-auto">
+        <p class="text-danger fw-bold">Write a program to check whether an alphabet is vowel or consonant</p>
+        <label class="fw-bold text-primary">Character</label>
+        <input id="assign16ch1" class="form-control">
+        <br>
+  
+        <button onclick="result16()" class="btn btn-primary">result</button>
+        <br>
+        <h1 id="assign16result1"></h1>
+      </div>
+
+<!-- Assign 17 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program to find maximum between two numbers </p>
+      <label class="fw-bold text-primary">Number1</label>
+      <input id="assign17Num1" class="form-control">
+      <br>
+      <label class="fw-bold text-primary">Number2</label>
+      <input id="assign17Num2" class="form-control">
+      <br>
+
+      <button onclick="result17()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign17result"></h1>
+    </div>
+
+<!-- Assign 18 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program to check whether a number is even or odd </p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="assign18Num1" class="form-control">
+      <br>
+
+      <button onclick="result18()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="assign18result"></h1>
+    </div>
+
+<!-- Assign 19 -->
+    <div class="w-50 my-5 mx-auto">
+      <p class="text-danger fw-bold">Write a program to check whether a number is positive or negative or zero </p>
+      <label class="fw-bold text-primary">Number</label>
+      <input id="assign19Num" class="form-control">
+      <br>
+
+      <button onclick="result19()" class="btn btn-primary">result</button>
+      <br>
+      <h1 id="result19"></h1>
+    </div>
+
+<!-- Assign 20 -->
+
+<div class="w-50 my-5 mx-auto">
+  <p class="text-danger fw-bold">Write a program to create Simple Calculator</p>
+  <label class="fw-bold text-primary">Number 1</label>
+  <input id="assign20Num1" class="form-control">
+  <br>
+  <label class="fw-bold text-primary">Number 2</label>
+  <input id="assign20Num2" class="form-control">
+  <br>
+
+  <button onclick="result20('sum')" class="btn btn-primary">+</button>
+  <button onclick="result20('multi')" class="btn btn-primary">*</button>
+  <button onclick="result20('divide')" class="btn btn-primary">/</button>
+  <button onclick="result20('minus')" class="btn btn-primary">-</button>
+  <br>
+  <h1 id="result20"></h1>
+</div>
+  
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
